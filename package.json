@@ -10,7 +10,8 @@
     "build:prod": "npm run build:dev -- --mode production",
     "watch": "npm run build:dev -- --watch",
     "start": "./node_modules/.bin/webpack-dev-server --progress --inline --hot --open",
-    "test": "jest"
+    "test": "jest",
+    "test:tdd": "npm run test -- --watch"
   },
   "repository": {
     "type": "git",
